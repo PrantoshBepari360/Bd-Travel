@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Forst Project</title>
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- start navbar section -->
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2f2f37;">
+    <div class="container">
+      
+        <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav flex-row flex-wrap"> 
+                <li class="nav-item col-6 col-md-auto">
+                  <a href="#" class="nav-link mr-5 active">
+                    <i class="fas fa-envelope"></i>
+                    <small class="d-md-none ms-2">Mail</small>
+                 </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      info@bdtravel.com
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                        <i class="far fa-user"></i>
+                        <small class="d-md-none ms-2">User</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      Login/Signup
+                    </a>
+                </li>
+            </ul>
+
+            <hr class="d-md-none text-white-50">
+
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fab fa-facebook"></i>
+                        <small class="d-md-none ms-2">Facebook</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fab fa-twitter"></i>
+                        <small class="d-md-none ms-2">Twitter</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fab fa-instagram"></i>
+                        <small class="d-md-none ms-2">Instagram</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                    <a class="nav-link" href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                        <small class="d-md-none ms-2">Linkedin</small>
+                    </a>
+                </li>
+                <li class="nav-item col-6 col-md-auto">
+                  <a class="nav-link" href="#">
+                    <i class="fab fa-youtube"></i>
+                      <small class="d-md-none ms-2">Youtube</small>
+                  </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-pinterest"></i>
+                    <small class="d-md-none ms-2">Pinterest</small>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+    <!-- start secondary navbar section -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #8ab929;">
+        <div class="container">
+          <a class="btn btn-outline-light btn-lg my-2 my-md-0" href="#" role="button">BD TRAVEL</a>
+    
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="blog.html">
+                          Blog
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="signin.html">
+                          Advaenture
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="author.html">
+                          Author
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="signup.html">
+                          Archive
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="contact.html">
+                          Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <hr class="d-md-none text-white-50">
+
+                <ul class="navbar-nav flex-row flex-wrap">
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-search"></i>
+                            <small class="d-md-none ms-2">search...</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- start third navbar section -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #efefef;">
+      <div class="container d-inline">
+       <div class="text-center">
+        <svg class="me-2" width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18.0142 1.02649C17.8095 0.866056 17.5573 0.778931 17.2977 0.778931C17.038 0.778931 16.7859 0.866056 16.5811 1.02649L0 14.0206L1.43426 15.8436L3.46161 14.2548V28.6103C3.46283 29.2251 3.70636 29.8143 4.13888 30.249C4.5714 30.6837 5.15767 30.9284 5.76935 30.9297H28.8467C29.4584 30.9284 30.0447 30.6837 30.4772 30.249C30.9097 29.8143 31.1533 29.2251 31.1545 28.6103V14.2653L33.1818 15.854L34.6161 14.031L18.0142 1.02649ZM19.6158 28.6103H15.0003V19.333H19.6158V28.6103ZM21.9235 28.6103V19.333C21.9229 18.7181 21.6796 18.1285 21.2469 17.6937C20.8143 17.2588 20.2276 17.0143 19.6158 17.0137H15.0003C14.3884 17.0143 13.8018 17.2588 13.3692 17.6937C12.9365 18.1285 12.6932 18.7181 12.6926 19.333V28.6103H5.76935V12.4469L17.308 3.41308L28.8467 12.4585V28.6103H21.9235Z" fill="#555555" fill-opacity="0.7"/>
+        </svg>
+        <svg class="me-2" width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.571427 3.05312L12.3571 10.9497L0.571427 18.8464L2 21L17 10.9497L2 0.89949L0.571427 3.05312Z" fill="#555555" fill-opacity="0.7"/>
+        </svg>
+        <a href="#" class="text-decoration-none text-secondary">Author</a>
+       </div>
+      </div>
+    </nav>
+
+    <!-- start main content section -->
+    <div class="container">
+      <div class="row my-5">
+        <div class="card border-0 col-md-6">
+          <div class="card-body px-2">
+            <h5 class="card-title">Author</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing sapien id imperdiet ultricies morbi. Praesent non pulvinar aenean morbi volutpat nulla dictumst aliquet tempus. In euismod et netus et augue diam velit eu. Nisi hac nunc, vitae eu. Ultricies lectus ac sit pulvinar. Et neque non suscipit massa tristique amet mi pellentesque. Pulvinar placerat varius sed etiam vivamus neque, eros, ac, convallis. Mattis tincidunt pharetra, luctus duis.
+            </p>
+            <p class="cart-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget vestibulum viverra fames nullam eu eget luctus duis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, minima.</p>
+            <h5 class="text-center">Contact</h5>
+            <div class="row">
+              <div class="text-center">
+                <a href="#" class="card-link text-decoration-none text-dark"><i class="fas fa-envelope"></i>
+                  contact@devon.com</a>
+                  <br>
+                <a href="#" class="card-link text-decoration-none text-dark"><i class="fas fa-phone-alt"></i>
+                  +8801911222222</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="card border-0 col-md-6">
+          <div class="card-body px-2">
+            <img src="img/Prantosh.jpeg" alt="somthing" class="w-100 h-auto mb-3">
+            <h5 class="text-center">Follow</h5>
+            <div class="row">
+              <div class="text-center">
+                <a href="#" class="card-link text-decoration-none text-success"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="card-link text-decoration-none text-success"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card-link text-decoration-none text-success"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="card-link text-decoration-none text-success"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- start footer section -->
+  <div class="card text-center bg-dark text-light">
+    <div class="card-header border-0">
+      <a class="btn btn-outline-light btn-lg my-2 my-md-0" href="#" role="button">BD TRAVEL</a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Subscribe to our newsletter</h5>
+     <div class="">
+      <div class="offset-sm-3 col-sm-6 offset-md-3 col-md-6 my-3">
+        <input type="email" class="form-control" placeholder="Enter your email" id="email">
+        <button type="submit" class="btn btn-primary my-3">Submit</button>
+      </div>
+     </div>
+     <div class="text-center">
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="card-link text-decoration-none text-white"><i class="fab fa-pinterest"></i></a>
+    </div>
+    </div>
+    <div class="card-footer text-muted border-0">
+      @Copyright & Design Mahabub Hossain
+    </div>
+  </div>
+
+    
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c7473138d7.js" crossorigin="anonymous"></script>
+    <!-- bootstrap.bundle.js -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- app.js -->
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* Start header section */
+.pre-header {
+    width: 100%;
+    margin: 0 auto;
+    background: #2f2f37;
+}
+
+.hed-container {
+    width: 1220px;
+    height: 50px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.hed-container .far {
+    margin-right: 20px;
+}
+
+.hed-container p {
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hed-icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.hed-icon-container .icons {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Start nav-bar section */
+nav {
+    width: 100%;
+    height: 70px;
+    background: #8AB929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-container {
+    width: 1220px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container .bdtravel {
+    width: 230px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container .bdtravel h1 {
+    font-size: 24px;
+}
+
+.nav-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-items a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.fa-search {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+/* Start click hear section */
+
+.click-hear {
+    width: 100%;
+    height: 720px;
+    background: url(../img/click.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+
+.click-hear-container {
+    width: 650px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Paragraph */
+.explore {
+    font-size: 36px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.id {
+    width: 560px;
+    height: 84px;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+/* click */
+.click {
+    width: 280px;
+    height: 50px;
+    background: #8AB929;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.click img {
+    width: 30px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+/* Start travel section */
+.travel-container {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-items {
+    width: 467px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel {
+    width: 170px;
+}
+
+.travel img {
+    margin-left: 35px;
+}
+
+.travel-items p {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+hr {
+    margin: 0;
+    outline: 0;
+}
+
+/* Start popular poat section */
+.popular-container {
+    width: 100%;
+    height: 500px;
+}
+
+.popular p {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.popular p::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #666666;
+    margin-top: 15px;
+    margin-left: 652px;
+}
+
+.popular-item-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.popular-item {
+    width: 400px;
+    height: 325px;
+    color: #555555;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.paragraph .pra {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.paragraph .pragra {
+    width: 346px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.comment {
+    width: 400px;
+    height: 55px;
+    background: #efefef;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.comment .fa-comment {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.comment .fa-folder {
+    margin-left: 165px;
+    margin-right: 15px;
+}
+
+/* Start newsletter signup section */
+.news-container {
+    width: 100%;
+    height: 410px;
+    background: #ffffff;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog {
+    width: 100%;
+    height: 60px;
+    background: #8AB929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.signup {
+    width: 700px;
+    height: 350px;
+    background: #ffffff;
+    float: left;
+}
+
+.signup h1 {
+    font-size: 40px;
+    padding: 60px 0 60px 30px; 
+    color: rgba(102, 102, 102, 0.5);
+}
+
+.subscribe {
+    width: 650px;
+    height: 60px;
+    border: 1px solid rgba(102, 102, 102, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 30px;
+    position: relative;
+    display: flex;
+}
+
+.subscribe input[type="email"] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    width: 650px;
+    height: 24px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    margin: 18px 0 0 42px;
+    color: rgba(10, 26, 40, 0.6);
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #8ab929;
+    border-radius: 2px;
+    margin-left: 470px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.signup input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.signup p {
+    margin-top: 20px;
+    color: rgba(102, 102, 102, 0.5);
+}
+
+.image {
+    width: 700px;
+    height: 350px;
+    background: #ffffff;
+    float: left;
+}
+
+/* Start futter section */
+
+footer {
+    background: #2f2f37;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name-container {
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    margin: 25px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-name-container {
+    color: #ffffff;
+}
+
+.footer-newsletter {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-box-footer{
+    margin: 11px auto 32px;
+    width: 550px;
+    height: 45px;
+    border: 1px solid rgba(252, 252, 252, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+    display: flex;
+}
+
+.text-box-footer input[type="email"] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 550px;
+    height: 43px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    background: #555555;
+    color: #ffffff;
+}
+
+.text-box-footer button {
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    border: none;
+    outline: none;
+    background: #8ab929;
+    border-radius: 2px;
+    margin-left: 470px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+}
+
+.footer-social-link .icons {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+small {
+    margin: 0 auto 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.75);
+}

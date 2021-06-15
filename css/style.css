@@ -1,0 +1,34 @@
+small {
+    color:#8ab929;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 24px;
+    max-width: 600px;
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #000;
+    left: 0px;
+    top: 50%;
+    position: absolute;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #000;
+    right: 0px;
+    top: 50%;
+    position: absolute;
+}
